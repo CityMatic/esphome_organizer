@@ -14,3 +14,4 @@
   "ingress_port": 8099,
   "arch": ["amd64", "arm64", "armv7"]
 }
+
