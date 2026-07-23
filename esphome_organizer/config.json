@@ -1,0 +1,20 @@
+{
+  "name": "ESPHome Organizer",
+  "version": "1.0",
+  "slug": "esphome_organizer",
+  "description": "Organizer ESPHome: czyszczenie logów, archiwów, ukrywanie katalogów latest/stable oraz ręczne RESET dla ESPHome legacy i dev.",
+  "url": "https://github.com/CityMatic/esphome_organizer",
+  "startup": "services",
+  "ingress": true,
+  "ingress_port": 8099,
+  "panel_icon": "mdi:tools",
+  "panel_title": "ESPHome Organizer",
+  "ports": {
+    "8099/tcp": 8099
+  },
+  "host_network": true,
+  "privileged": ["NET_ADMIN"],
+  "map": ["config", "share"],
+  "options": {},
+  "schema": {}
+}
