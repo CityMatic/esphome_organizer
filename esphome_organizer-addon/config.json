@@ -1,0 +1,16 @@
+{
+  "name": "ESPHome Organizer",
+  "version": "1.0",
+  "slug": "esphome_organizer",
+  "description": "Automatyczne czyszczenie ESPHome + restart dodatków",
+  "startup": "services",
+  "boot": "auto",
+  "panel_icon": "mdi:tools",
+  "panel_title": "ESPHome Organizer",
+  "ports": {
+    "8099/tcp": 8099
+  },
+  "ingress": true,
+  "ingress_port": 8099,
+  "arch": ["amd64", "arm64", "armv7"]
+}
