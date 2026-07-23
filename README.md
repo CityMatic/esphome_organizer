@@ -1,1 +1,1 @@
-# esphome_organizer
+# esphome_organizer-addon
