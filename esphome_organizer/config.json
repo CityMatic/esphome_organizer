@@ -10,8 +10,6 @@
   "panel_icon": "mdi:tools",
   "panel_title": "ESPHome Organizer",
 
-  "image": "local/esphome_organizer",
-
   "ports": {
     "8099/tcp": 8099
   },
