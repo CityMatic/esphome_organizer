@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ESPHome Organizer</title>
+<style>
+button {
+  width: 300px;
+  height: 80px;
+  font-size: 26px;
+  margin: 20px;
+  border-radius: 12px;
+}
+#legacy { background-color: #2196F3; color: white; }
+#dev { background-color: #4CAF50; color: white; }
+</style>
+</head>
+<body>
+<h1>ESPHome Organizer</h1>
+
+<button id="legacy" onclick="fetch('/reset-legacy', {method: 'POST'})">
+RESET LEGACY
+</button>
+
+<button id="dev" onclick="fetch('/reset-dev', {method: 'POST'})">
+RESET DEV
+</button>
+
+</body>
+</html>
